@@ -1,0 +1,755 @@
+@media(min-width: 768px){
+
+    /* LAYOUT - App <div> */
+
+    .Layout{
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Text Banner - <header> */
+
+    .Layout #Encabezado{
+        text-align: center;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+        background: var(--Color-Header-BannerTittle);
+    }
+
+    .Layout .Header h1{
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Navegation */
+
+    .Layout .Header .Navegation-Little{
+        display: none;
+    }
+
+    .Layout .Header .Navegation-Big{
+        padding-top: 24px;
+        padding-bottom: 24px;
+        background: var(--Color-Header-Navegation);
+    }
+
+    .Layout .Header .Navegation-Big ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Layout .Header .Navegation-Big .ListNavegation-Big .Navegation-List-Big a{
+        color: var(--Color-Header-NavegationLink);
+    }
+
+    /* Section */
+
+    .Layout .Section-App{
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Banner\ Main\ -\ Design\ and\ Developer.jpg);
+        background-size: cover;
+    }
+
+    .Layout .Section-App h2{
+        font-size: 22px;
+        color: var(--Color-Section-LettersBannerMain);
+    }
+
+    .Layout .Section-App .Location-SectionApp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .Layout .Section-App .Location-SectionApp i, p{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .Layout .Section-App .Location-SectionApp i{
+        color: var(--Color-Section-Location-BannerMain);
+    }
+
+    .Layout .Section-App .Location-SectionApp p{
+        color: var(--Color-Section-LettersBannerMain);
+    }
+
+    .Layout .Section-App button{
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-transform: uppercase;
+        background: var(--Color-Section-ButtonBannerMain);
+        color: var(--Color-Section-LettersBannerMain);
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .Layout .Section-App button:hover{
+        cursor: pointer;
+    }
+
+    /* Main */
+
+    .Layout .Main{
+        padding: 30px;
+        background: var(--Color-Main-Background-Services);
+        margin-top: 2.5rem;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    /* Main - Section Services */
+
+    .Layout .Main .Section-Services h2{
+        font-size: 22px;
+        color: var(--Color-Main-Section-TittleLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web h3{
+        font-size: 17px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web i{
+        font-size: 17px;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 20px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web p{
+        font-size: 12px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile h3{
+        font-size: 17px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile .AppsMobile-Img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 20px;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile .AppsMobile-Img i{
+        font-size: 17px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile p{
+        font-size: 12px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce h3{
+        font-size: 17px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce i{
+        font-size: 17px;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 20px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce p{
+        font-size: 12px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    /* Main - Section Footer */
+
+    .Layout .Main .Section-Contact h2{
+        font-size: 22px;
+        color: var(--Color-Main-Section-TittleLetters-Services);
+        padding: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--Color-Main-SectionFooter-FormBackground);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-TittleContact h3{
+        font-size: 17px;
+        color: var(--Color-Main-SectionFooter-FormSubTittle);
+        padding: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact{
+        text-align: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Name p{
+        font-size: 13.5px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Name input{
+        font-size: 13.5px;
+        margin-left: 7px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Telephone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Telephone p{
+        font-size: 13.5px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Name-Telephone .Label-Telephone input{
+        font-size: 13.5px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Email{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Email p{
+        font-size: 13.5px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Email input{
+        font-size: 13.5px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Message{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Message p{
+        font-size: 13.5px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Message textarea{
+        font-size: 13.5px;
+        margin-left: 10px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Send{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background: var(--Color-Main-SectionFooter-BackgroundLabelSend);
+        color: var(--Color-Main-SectionFooter-ColorLabelSend);
+        cursor: pointer;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Label_Send:hover{
+        background: var(--Color-Main-SectionFooter-HoverBackgroundLabelSend);
+        color: var(--Color-Main-SectionFooter-HoverColorLabelSend);
+        border: 2px solid var(--Color-Main-SectionFooter-HoverBorderLabelSend);
+        transition: 2s;
+    }
+
+    /* Footer - Pie de Página <footer> */
+
+    .Layout .Footer{
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: var(--Color-Footer-BackgroundCopyRight);
+    }
+
+    .Layout .Footer small{
+        font-size: 13.5px;
+        color: var(--Color-Footer-CopyRightTittle);
+    }
+
+}
+
+@media(max-width: 767px){
+
+    /* LAYOUT - App <div> */
+
+    .Layout{
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Text Banner - <header> */
+
+    .Layout #Encabezado{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+        background: var(--Color-Header-BannerTittle);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .Layout .Header h1{
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Navegation */
+
+    .Layout .Header .Navegation-Big{
+        display: none;
+    }
+
+    .Layout .Header .Navegation-Little{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Main{
+        position: relative;
+        cursor: pointer;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Main #Spn-1, #Spn-2, #Spn-3{
+        position: absolute;
+        content: '';
+        background: var(--Color-Header-Navegation);
+        top: -6px;
+        height: 4px;
+        width: 20px;
+        border-radius: 75px;
+        transition: all 400ms ease-in-out;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Main #Spn-2{
+        top: -1px;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Main #Spn-3{
+        top: 4px;
+    }
+
+    .Layout .Header .Navegation-Little #Btn-Main{
+        display: none;
+    }
+
+    .Layout .Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-1{
+        transform: rotate(140deg);
+        top: -1px;
+    }
+
+    .Layout .Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-2{
+        opacity: 0;
+    }
+
+    .Layout .Header .Navegation-Little #Btn-Main:checked ~ .Label-Main #Spn-3{
+        transform: rotate(-140deg);
+        top: -1px;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Navegation{
+        display: none;
+        position: absolute;
+        top: 3.59rem;
+        left: 0px;
+        width: 100%;
+        background: var(--Color-Header-Navegation);
+    }
+
+    .Layout .Header .Navegation-Little .Label-Navegation ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Navegation .ListNavegation-Little li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .Layout .Header .Navegation-Little .Label-Navegation .ListNavegation-Little .Navegation-List-Little a{
+        font-size: 11px;
+        color: var(--Color-Header-NavegationLink);
+    }
+
+    .Layout .Header .Navegation-Little #Btn-Main:checked ~ .Label-Navegation{
+        display: block;
+    }
+
+    /* Section */
+
+    .Layout .Section-App{
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Banner\ Main\ -\ Design\ and\ Developer.jpg);
+        background-size: cover;
+    }
+
+    .Layout .Section-App h2{
+        font-size: 11px;
+        color: var(--Color-Section-LettersBannerMain);
+    }
+
+    .Layout .Section-App .Location-SectionApp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 7px;
+    }
+
+    .Layout .Section-App .Location-SectionApp i, P{
+        font-size: 10px;
+        margin-left: 15px;
+    }
+
+    .Layout .Section-App .Location-SectionApp i{
+        color: var(--Color-Section-Location-BannerMain);
+    }
+
+    .Layout .Section-App .Location-SectionApp p{
+        color: var(--Color-Section-LettersBannerMain);
+    }
+
+    .Layout .Section-App button{
+        font-size: 11px;
+        color: var(--Color-Section-LettersBannerMain);
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        background: var(--Color-Section-ButtonBannerMain);
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .Layout .Section-App button:hover{
+        cursor: pointer;
+    }
+
+    /* Main */
+
+    .Layout .Main{
+        background: var(--Color-Main-Background-Services);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Main - App <main> */
+
+    .Layout .Main .Section-Services h2{
+        font-size: 12px;
+        color: var(--Color-Main-Section-TittleLetters-Services);
+        padding: 15px;
+    }
+
+    .Layout .Main .Section-Services .My-Services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web h3{
+        font-size: 11px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web i{
+        font-size: 11px;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 10px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Design-Web p{
+        font-size: 11px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile h3{
+        font-size: 11px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile .AppsMobile-Img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 10px;
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile .AppsMobile-Img i{
+        font-size: 11px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .Apps-Mobile p{
+        font-size: 11px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce h3{
+        font-size: 11px;
+        color: var(--Color-Main-Section-SubLetters-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce i{
+        font-size: 11px;
+        background: var(--Color-Main-Section-BackgroundImg-Services);
+        border-radius: 75px;
+        padding: 10px;
+        color: var(--Color-Main-Section-Img-Services);
+    }
+
+    .Layout .Main .Section-Services .My-Services .E-Commerce p{
+        font-size: 11px;
+        color: var(--Color-Main-Section-LoremIpsum-Services);
+    }
+
+    /* Section - Footer */
+
+    .Layout .Main .Section-Contact h2{
+        font-size: 12px;
+        color: var(--Color-Main-Section-TittleLetters-Services);
+        padding: 10px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: var(--Color-Main-SectionFooter-FormBackground);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-TittleContact h3{
+        font-size: 11px;
+        color: var(--Color-Main-SectionFooter-FormSubTittle);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact{
+        text-align: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone{
+        text-align: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Name{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Name p{
+        font-size: 11px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Name input{
+        font-size: 11px;
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Telephone{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Telephone p{
+        font-size: 11px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Name-Telephone .Label-Telephone input{
+        font-size: 11px;
+        margin-left: 15px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Email{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Email p{
+        font-size: 11px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Email input{
+        font-size: 11px;
+        margin-left: 43px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Message{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Message p{
+        font-size: 11px;
+        color: var(--Color-Main-SectionFooter-FormLetterTittle);
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Message textarea{
+        font-size: 11px;
+        margin-left: 25px;
+        width: 100%;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Send{
+        font-size: 11px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        background: var(--Color-Main-SectionFooter-BackgroundLabelSend);
+        color: var(--Color-Main-SectionFooter-ColorLabelSend);
+        border: 2px solid var(--Color-Main-SectionFooter-BorderLabelSend);
+        cursor: pointer;
+    }
+
+    .Layout .Main .Section-Contact .Contact-Form .Contact-ContentContact .Label_Send:hover{
+        background: var(--Color-Main-SectionFooter-HoverBackgroundLabelSend);
+        color: var(--Color-Main-SectionFooter-HoverColorLabelSend);
+        border: 2px solid var(--Color-Main-SectionFooter-HoverBorderLabelSend);
+        transition: 2s;
+    }
+
+    /* Footer - Pie de Página <footer> */
+
+    .Layout .Footer{
+        text-align: center;
+        background: var(--Color-Footer-BackgroundCopyRight);
+    }
+
+    .Layout .Footer small{
+        font-size: 11px;
+        color: var(--Color-Footer-CopyRightTittle);
+    }
+
+}

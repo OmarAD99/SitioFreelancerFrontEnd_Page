@@ -1,0 +1,71 @@
+:root{
+    --Color-Header-BannerTittle: #efefef;
+    --Color-Header-Navegation: #009ed7;
+    --Color-Header-NavegationLink: #FFF;
+    --Color-Section-LettersBannerMain: #FFF;
+    --Color-Section-ButtonBannerMain: #009ed7;
+    --Color-Section-Location-BannerMain: #ffd500;
+    --Color-Main-Background: #efefef;
+    --Color-Main-Background-Services: #FFF;
+    --Color-Main-Section-TittleLetters-Services: #090909;
+    --Color-Main-Section-SubLetters-Services: #009ed7;
+    --Color-Main-Section-BackgroundImg-Services: #ffd500;
+    --Color-Main-Section-Img-Services: #090909;
+    --Color-Main-Section-LoremIpsum-Services: #090909;
+    --Color-Main-SectionFooter-ContactTittle: #090909;
+    --Color-Main-SectionFooter-FormBackground: #656565;
+    --Color-Main-SectionFooter-FormSubTittle: #ffbb00;
+    --Color-Main-SectionFooter-FormLetterTittle: #FFF;
+    --Color-Main-SectionFooter-BackgroundLabelSend: #009ed7;
+    --Color-Main-SectionFooter-ColorLabelSend: #FFF;
+    --Color-Main-SectionFooter-BorderLabelSend: #FFF;
+    --Color-Main-SectionFooter-HoverBackgroundLabelSend: #FFF;
+    --Color-Main-SectionFooter-HoverColorLabelSend: #009ed7;
+    --Color-Main-SectionFooter-HoverBorderLabelSend: #009ed7;
+    --Color-Footer-CopyRightTittle: #090909;
+    --Color-Footer-BackgroundCopyRight: #efefef;
+}
+
+*, *::before, *::after{
+    margin: 0%;
+    padding: 0%;
+    vertical-align: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: var(--Color-background-Found);
+    font-family: "Poppins";
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, a{
+    display: inline;
+}
+
+img, video, iframe, picture, figure{
+    max-width: 100%;
+}
+
+form, input, select, textarea, button, label{
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
